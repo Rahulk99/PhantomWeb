@@ -19,26 +19,32 @@ Before using this script, ensure that you have the following prerequisites insta
 * subjack
 * nmap
 * waybackurls
+
 Make sure these tools are properly set up and added to your system's PATH.
 
-Usage
+
+Also you can use the Script (install_tools.py) to install these tools automatically.
+
+## Usage
 1. Clone this repository:
 ```
 git clone https://github.com/your_username/git-recon-script.git
 ```
 2. Navigate to the cloned directory:
-
 ```
 cd git-recon-script
 ```
-3. Run the script:
-
+3. Install the required tools with the script
+```
+python3 install_tools.py
+```
+4. Run the script:
 ```
 python git_recon_script.py
 ```
-4. Follow the prompts and provide the necessary input.
+5. Follow the prompts and provide the necessary input.
 
-5. The script will perform the specified recon steps and generate output files in the recon directory.
+6. The script will perform the specified recon steps and generate output files in the recon directory.
 
 ## Disclaimer
 This script is provided for educational and ethical purposes only. The use of this script against any target without proper authorization may be illegal. The author is not responsible for any misuse or damage caused by this script.
@@ -46,4 +52,5 @@ This script is provided for educational and ethical purposes only. The use of th
 ## Author
 * Rahul Kumar
 * LinkedIn: @rahul-kumar8176
+
 Please note that this script is provided as-is without any warranty. Use it at your own risk.
